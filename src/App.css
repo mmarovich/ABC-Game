@@ -8,7 +8,7 @@
 }
 
 .Max-logo {
-  animation: pulse 6s infinite alternate;
+  animation: pulse 6s infinite linear;
   height: 60px;
   transform-origin: center;
 }
@@ -126,6 +126,7 @@
 .letter-image {
   width: 200px;
   height: 200px;
+  font-size: 1rem;
 }
 
 .button {
@@ -255,11 +256,11 @@ footer {
   animation: pulse 1s ease infinite, 
 }
 
-@keyframes pulse {
+/*@keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.3); }
   100% { transform: scale(1); }
-}
+}*/
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
